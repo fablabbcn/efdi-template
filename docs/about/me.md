@@ -1,6 +1,6 @@
 # Sobre mi
-
 ![image](https://github.com/wwwteo/mateo_olivera/blob/main/docs/images/fotomia.jpg)
+
 
 ¡Hola! 
 

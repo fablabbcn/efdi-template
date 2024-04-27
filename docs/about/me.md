@@ -1,5 +1,5 @@
 # Sobre mi
-![](mateo_olivera\docs\images\fotomia.jpg)
+![](../images/fotomia.jpg)
 
 
 ¡Hola! 

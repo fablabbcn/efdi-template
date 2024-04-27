@@ -5,7 +5,7 @@ site_author: Mateo Olivera
 copyright: Copyleft 2024 "Mateo Olivera" - GNU Free Documentation License
 repo_name: 'Mateo Olivera : Github Repo'
 site_url: https://wwwteo.github.io/mateo_olivera/about/me/
-repo_url: https://github.com/wwwteo/mateo_olivera/
+repo_url: https://github.com/wwwteo/mateo_olivera/docs/index/index.md
 
 
 nav:

@@ -1,8 +1,8 @@
 # Sobre mi
-![](https://github.com/wwwteo/mateo_olivera/blob/main/docs/images/fotomia.jpg)
+![](C:\Users\usuario_2\Desktop\EFDIA\mateo_olivera\docs\images\perezoso.jpg)
 
 
-¡Hola! 
+¡Hola perezoso! 
 
 
 

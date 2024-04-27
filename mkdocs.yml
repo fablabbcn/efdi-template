@@ -9,7 +9,7 @@ repo_url: https://github.com/wwwteo/mateo_olivera/
 
 
 nav:
-  - Home: index.md
+  - Home: docs/index/index.md
   - About: about/me.md
   - Modulos Técnicos :
     - MT01: tecnicos/mt01.md

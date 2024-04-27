@@ -1,5 +1,5 @@
 # Sobre mi
-![](C:\Users\usuario_2\Desktop\EFDIA\mateo_olivera\docs\images\perezoso.jpg)
+![](C:\Users\usuario_2\Desktop\EFDIA\mateo_olivera\docs\images\fotomia.jpg)
 
 
 ¡Hola perezoso! 

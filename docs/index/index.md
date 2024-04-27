@@ -1,5 +1,5 @@
-## Welcome
+## ¡Bienvenidos!
 
 ![](../index/foto_index.jpg)
 
-IndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndex
+Aquí va el texto del index 

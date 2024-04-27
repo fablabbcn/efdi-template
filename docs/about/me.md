@@ -2,7 +2,7 @@
 ![](C:\Users\usuario_2\Desktop\EFDIA\mateo_olivera\docs\images\fotomia.jpg)
 
 
-¡Hola perezoso! 
+¡Hola! 
 
 
 

@@ -1,4 +1,4 @@
-# Sobre mi
+# Sobre mi. Hola!
 
 ![](../images/pilar1.jpg)
 

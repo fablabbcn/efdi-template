@@ -1,3 +1,8 @@
+---
+layout:default
+title: Mi Pagina Web
+---
+
 ## Round 2
 
 ![](../images/round_2.jpg)

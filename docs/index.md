@@ -1,5 +1,12 @@
-## Welcome
+## Round 2
 
-![](../images/perezoso.jpg)
+![](../images/round_2.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Me vuelvo a presentar, porque este es mi segundo fork. El anterior se me trabó cuando le hice commit con un archivo de más de 1 GB. Lección aprendida.
+
+En esta página me propongo hacer un raconto del camino transitado hasta hoy en el marco de la Especialización en Fabricación Digital e Innovación con Utec y Fab Lab Bcn. 
+
+**Bienvenido, pasen y vean.**
+Muchas gracias por su tiempo.
+
+Pilar

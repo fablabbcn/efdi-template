@@ -1,112 +1,47 @@
-# 🌐 EFDI Website Template
+# Bitácora EFDI · Martín Ferreira
 
-Este es un template para el repositorio personal de los estudiantes durante la **Especialización en Fabricación Digital e Innovación (EFDI - UTEC & FAB LAB BARCELONA) con mis datos nuevos**.
+Sitio personal de la **Especialización en Fabricación Digital e Innovación (EFDI · UTEC & Fab Lab Barcelona)**.
+Publicado en <https://martinfp642.github.io/martin_ferreira/>.
 
----
+Está hecho con [MkDocs](https://www.mkdocs.org/) y [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/),
+con una estética en blanco y negro (Montserrat, líneas de 2 px, sin sombras ni radios) tomada de
+[fisicabit.com](https://fisicabit.com).
 
-## 📥 Requisitos previos
+## Estructura
 
-Antes de empezar, asegúrate de tener instalados:
+| Carpeta / archivo | Qué es |
+| --- | --- |
+| `docs/` | Las páginas en Markdown. Una carpeta por sección (`tecnicos`, `diseno`, `innovacion`, `proyecto`, `ref`). |
+| `docs/images/` | Imágenes, organizadas por sección y entrada. |
+| `docs/files/` | Archivos editables y exportaciones (`.scad`, `.stl`, `.ino`, …). |
+| `docs/metodo/documentar.md` | Resumen de la guía de documentación y la estructura de cada entrada. |
+| `docs/editor.md` + `docs/javascripts/editor.js` | Editor en la propia página (ver abajo). |
+| `docs/stylesheets/extra.css` | Todo el estilo. |
+| `mkdocs.yml` | Configuración y menú (`nav`). |
+| `.github/workflows/main.yml` | Cada push a `main` reconstruye el sitio y lo publica en `gh-pages`. |
 
-- **Git** → [Descargar Git](https://git-scm.com/downloads)  
-- **Python 3** → [Descargar Python](https://www.python.org/downloads/)  
+## Editor en la página
 
----
+La página **Editor** del sitio permite, desde el navegador y sin instalar nada:
 
-## 🔍 Verificar instalaciones
+- escribir una entrada nueva con la estructura de la guía (introducción, investigación, proceso, resultados, reflexión, archivos, atribución);
+- cargar fotos, que se comprimen a 1600 px antes de subirse;
+- publicar todo en **un solo commit** a `main`, incluyendo la línea nueva en el menú de `mkdocs.yml`;
+- editar o borrar cualquier archivo de `docs/` y el propio `mkdocs.yml`.
 
-En tu terminal (Mac/Linux) o en PowerShell (Windows), ejecuta:
+Solo funciona con un **token personal fine-grained** de GitHub con permiso *Contents: Read and write* sobre este
+repositorio. El token queda guardado únicamente en el navegador. Sin token, el editor igual genera el Markdown para
+copiar o descargar. Las instrucciones completas están en la pestaña **Ayuda** del editor.
 
-```bash
-git --version
-python --version
-```
-
-Deberías ver un número de versión para cada uno.  
-Ejemplo:
-```
-git version 2.46.0
-Python 3.11.6
-```
-
----
-
-## 🔄 Actualizar `pip` (gestor de paquetes de Python)
-
-```bash
-python -m pip install --upgrade pip
-```
-
----
-
-## 📦 Instalar MkDocs (si no lo tienes instalado)
-
-En caso de que MkDocs no esté disponible en tu sistema, instálalo con:
-
-```bash
-pip install mkdocs mkdocs-material
-```
-
-Esto instalará MkDocs y el tema Material, necesarios para este proyecto.
-
----
-
-## 📂 Clonar el repositorio
-
-Ejecuta:
-
-```bash
-git clone git@github.com:fablabbcn/efdi-template.git
-cd efdi-template
-```
-
----
-
-## 📦 Instalar dependencias del proyecto
-
-Dentro de la carpeta clonada:
+## Trabajar en local
 
 ```bash
 pip install -r requirements.txt
-```
-
-Esto instalará **MkDocs**, el tema `mkdocs-material` y los plugins necesarios.
-
----
-
-## ▶️ Levantar MkDocs en local
-
-Para ver la documentación en tu navegador (servidor local):
-
-```bash
 mkdocs serve
 ```
 
-👉 Abre en tu navegador: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+Abrir <http://127.0.0.1:8000>. `mkdocs build` genera la carpeta `site/`, que no se sube al repositorio.
 
----
+## Licencia
 
-## 🏗️ Generar el sitio estático
-
-Para compilar la documentación y generar el sitio en la carpeta `site/`:
-
-```bash
-mkdocs build
-```
-
-El contenido dentro de `site/` es el que se publica en **GitHub Pages**.
-
----
-
-## 🔗 Recursos útiles
-
-- [Documentación del curso en Moodle](https://ev1.utec.edu.uy/moodle/course/view.php?id=15375&section=1#tabs-tree-start)  
-- [MkDocs — Documentación oficial](https://www.mkdocs.org/)  
-- [Material for MkDocs — Tema oficial](https://squidfunk.github.io/mkdocs-material/)  
-- [Comandos - GIT](https://education.github.com/git-cheat-sheet-education.pdf)
----
-
-## 🚀 Demo del template
-
-Puedes visitar la demo del template aquí:  
-👉 [https://mathira.github.io/efdi-template/](https://mathira.github.io/efdi-template/)
+Contenido bajo GNU Free Documentation License. Plantilla original: [fablabbcn/efdi-template](https://github.com/fablabbcn/efdi-template).

@@ -1,104 +1,94 @@
-site_name: Martín Ferreira · Bitácora EFDI
-site_description: Bitácora de la Especialización en Fabricación Digital e Innovación (UTEC · Fab Lab Barcelona)
-site_author: Martín Ferreira
-copyright: Copyleft 2025 Martín Ferreira · GNU Free Documentation License
-repo_name: martinfp642/martin_ferreira
+
+# Replace the text below to customize your site
+site_name: Martin Ferreira - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_description: Especialización en Fabricación Digital e Innovación
+site_author: Martin Ferreira
+copyright: Copyleft 2024 "Martin Ferreira" - GNU Free Documentation License
+repo_name: "martinfp642/martin_ferreira"
 site_url: https://martinfp642.github.io/martin_ferreira/
 repo_url: https://github.com/martinfp642/martin_ferreira
-edit_uri: edit/main/docs/
 
-# ------------------------------------------------------------------
-# Navegación. El editor de la bitácora (docs/editor.md) agrega
-# entradas nuevas dentro de estas secciones: una línea por página.
-# ------------------------------------------------------------------
 nav:
-  - Inicio: index.md
-  - Sobre mí: about/me.md
-  - Método: metodo/documentar.md
+  - Home: index.md
+  - About: about/me.md
+  - About sitio web: about sitio web/sitio web-mt01.md
   - Tecnología y Fabricación:
-      - MT01 · Sitio web: tecnicos/mt01-sitio-web.md
-      - MT02-MT03: tecnicos/mt02-03.md
+      - Bloque 1 MT02-MT03: tecnicos/mt02-03.md
   - Diseño:
-      - MD01: diseno/md01.md
+      - Bloque 1 MD01: diseno/md01.md
   - Innovación:
-      - MI01: innovacion/mi01.md
+      - Bloque 1 MI01: innovacion/mi01.md
   - Proyecto Integrador:
-      - Ideas iniciales: proyecto/proyecto.md
+      - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
-      - Web: ref/web.md
+      - web: ref/web.md
+  - Método: metodo/documentar.md
   - Editor: editor.md
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/martinfp642
-      name: GitHub
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/fisicasimpleuy
-      name: Física Simple
-    - icon: fontawesome/solid/flask
-      link: https://fisicabit.com
-      name: fisicabit.com
+      link: https://instagram.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/"
+    - icon: fontawesome/brands/github
+      link: "https://github.com/"
 
 theme:
   name: material
-  language: es
   palette:
-    - scheme: default
-      primary: white
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Modo oscuro
-    - scheme: slate
-      primary: black
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Modo claro
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: custom
+    accent: purple
   font:
+    # See available fonts at https://fonts.google.com/
     text: Montserrat
     code: Roboto Mono
   icon:
-    logo: material/square
-    repo: fontawesome/brands/github
-    edit: material/pencil
+    logo: material/memory
   favicon: images/favicon.svg
   features:
-    - navigation.top
-    - navigation.instant
-    - navigation.tracking
+    - instant
+    - navigation.expand
     - navigation.indexes
-    - navigation.footer
-    - search.highlight
-    - search.suggest
-    - toc.follow
-    - content.code.copy
-    - content.action.edit
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
 
 plugins:
-  - search:
-      lang: es
+  - search
   - git-revision-date-localized:
       fallback_to_build_date: true
-      locale: es
-      type: date
-  - redirects:
-      redirect_maps:
-        "about sitio web/sitio web-mt01.md": tecnicos/mt01-sitio-web.md
 
 markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
+  - extra
   - smarty
-  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite:
+      guess_lang: false
   - toc:
-      permalink: "¶"
-      toc_depth: 3
+      permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - md_in_html
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -106,26 +96,22 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
-  - pymdownx.keys
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
-      base_path: docs
+      base_path: "docs"
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed
 
 extra_css:
-  - stylesheets/bitacora.css
+  - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/bitacora-editor.js
+  - javascripts/editor.js

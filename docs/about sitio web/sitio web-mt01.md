@@ -1,10 +1,4 @@
----
-title: MT01 · Sitio web
----
-
 # Construcción de mi sitio web
-
-<p class="meta">MT01 · Tecnología y Fabricación</p>
 
 Este sitio es mi bitácora de la **Especialización en Fabricación Digital e Innovación de UTEC**. Acá voy a compartir pruebas, dificultades y avances, vinculándolos con mi trabajo como docente de Física y referente STEM del Colegio Hans Christian Andersen.
 
@@ -63,10 +57,10 @@ Con ayuda de IA desarrollé un aplicativo pensado para preparar el entorno segú
 Para una imagen, primero guardo el archivo en la carpeta correspondiente y después escribo la ruta. El nombre, la extensión y las mayúsculas deben coincidir. La descripción explica qué muestra la imagen.
 
 ```markdown
-![Sala STEM del Colegio Hans Christian Andersen](../images/welcome/salastem.jpg)
+![Sala STEM del Colegio Hans Christian Andersen](images/welcome/salastem.jpg)
 ```
 
-Esta ruta es un ejemplo para una página ubicada en una subcarpeta de `docs` (por eso el `../`); si cambio la ubicación de la página, tengo que revisar la ruta.
+Esta ruta es un ejemplo para una página ubicada junto a la carpeta `images`; si cambio la ubicación de la página, tengo que revisar la ruta.
 
 **Para no confundirme:** Git guarda el historial; GitHub aloja el repositorio; Source Control es el panel desde el que gestiono cambios en VS Code; Git Bash permite usar comandos de Git y de terminal en Windows.
 

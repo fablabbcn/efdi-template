@@ -1,8 +1,5 @@
 ---
 title: Editor
-hide:
-  - toc
-  - navigation
 ---
 
 # Editor de bitácora

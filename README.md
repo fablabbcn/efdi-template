@@ -15,8 +15,8 @@ con una estética en blanco y negro (Montserrat, líneas de 2 px, sin sombras ni
 | `docs/images/` | Imágenes, organizadas por sección y entrada. |
 | `docs/files/` | Archivos editables y exportaciones (`.scad`, `.stl`, `.ino`, …). |
 | `docs/metodo/documentar.md` | Resumen de la guía de documentación y la estructura de cada entrada. |
-| `docs/editor.md` + `docs/javascripts/editor.js` | Editor en la propia página (ver abajo). |
-| `docs/stylesheets/extra.css` | Todo el estilo. |
+| `docs/editor.md` + `docs/javascripts/bitacora-editor.js` | Editor en la propia página (ver abajo). |
+| `docs/stylesheets/bitacora.css` | Todo el estilo. |
 | `mkdocs.yml` | Configuración y menú (`nav`). |
 | `.github/workflows/main.yml` | Cada push a `main` reconstruye el sitio y lo publica en `gh-pages`. |
 

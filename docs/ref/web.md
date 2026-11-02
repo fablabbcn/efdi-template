@@ -1,7 +1,5 @@
 ---
 title: Referencias
-hide:
-  - toc
 ---
 
 # Referencias

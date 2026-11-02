@@ -1,7 +1,5 @@
 ---
 title: Sobre mí
-hide:
-  - toc
 ---
 
 # Sobre mí

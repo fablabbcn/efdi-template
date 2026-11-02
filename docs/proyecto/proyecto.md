@@ -1,7 +1,5 @@
 ---
 title: Ideas iniciales
-hide:
-  - toc
 ---
 
 # Ideas iniciales

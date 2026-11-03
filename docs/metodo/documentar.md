@@ -36,7 +36,7 @@ El [editor](../editor.md) genera esta estructura: completo los campos que quiera
 
     - Subo siempre el **formato editable original** (`.f3d`, `.scad`, `.kicad_pcb`, `.ino`, …).
     - Agrego una **exportación abierta o visualizable** (`.stl`, `.png`, `.pdf`).
-    - Si un archivo pesa más de 10 MB, consulto opciones de compresión o almacenamiento antes de subirlo.
+    - Si un archivo pesa más de 10 MB, consulto opciones de compresión o almacenamiento antes de subirlo. La alternativa es subirlo a Google Drive, compartirlo con "cualquier persona con el enlace" y enlazarlo desde la página; el editor lo permite desde el elemento Archivos.
 
 === "Imágenes"
 

@@ -376,7 +376,8 @@ title: Editor
 <h3>Armar página</h3>
 <ul>
   <li>Elegís elementos de la paleta (título, texto, imagen, carrete, galería, antes/después, ficha, tabla, línea de tiempo, resultado, nota, video, código, archivos) y completás sus campos. Cada elemento se mueve con las flechas o se quita con ×.</li>
-  <li>Las fotos se arrastran dentro de cada elemento; el pie de foto se escribe debajo de cada una. Los archivos (.stl, .f3d, .ino…) se suben desde el elemento Archivos y quedan en <code>docs/files/</code>.</li>
+  <li>Las fotos se arrastran dentro de cada elemento; el pie de foto se escribe debajo de cada una.</li>
+  <li>El elemento <strong>Archivos</strong> tiene dos caminos: subir el archivo al repositorio (queda en <code>docs/files/</code>; hasta 10 MB sin aviso, hasta 50 MB con confirmación) o <strong>agregar un enlace</strong> a Google Drive, YouTube u otro sitio. Para Drive: subir el archivo, <em>Compartir → Cualquier persona con el enlace</em>, copiar el enlace y pegarlo.</li>
   <li>La vista previa de la derecha muestra la página tal como va a quedar. <strong>Publicar</strong> sube la página, las fotos y los archivos en un solo commit y la agrega al menú.</li>
   <li>Una página armada así se puede volver a abrir en el constructor desde <strong>Editar archivo</strong> (botón "Abrir en Armar página").</li>
 </ul>

@@ -6,6 +6,9 @@ title: Editor
 
 <p class="meta">Escribir · subir imágenes · publicar en el repositorio</p>
 
+!!! note "Plantillas"
+    Para una entrada con carrete, galería, comparación y ficha de datos, copiá la plantilla de tu sección desde [Plantillas](plantillas/index.md) en la pestaña **Editar archivo**.
+
 <div id="bitacora-editor" class="be" data-owner="martinfp642" data-repo="martin_ferreira" data-branch="main" data-site="https://martinfp642.github.io/martin_ferreira/">
 
 <div class="be-toolbar">
@@ -74,6 +77,11 @@ title: Editor
     <div class="be-drop" id="be-drop">Arrastrá fotos o capturas acá, o hacé clic para elegirlas</div>
     <input type="file" id="be-files" accept="image/*" multiple style="display:none">
     <div class="be-images" id="be-images"></div>
+    <div class="be-actions" style="margin:.6rem 0 0">
+      <button type="button" class="small" id="be-ins-carrete">Insertar carrete con todas</button>
+      <button type="button" class="small" id="be-ins-galeria">Insertar galería con todas</button>
+    </div>
+    <label class="be-check"><input type="checkbox" id="be-carrete" checked> Las fotos que no inserte en el texto van juntas en un carrete al final del proceso</label>
   </div>
 </div>
 
@@ -155,6 +163,10 @@ title: Editor
   <div class="be-drop" id="be-drop2">Arrastrá imágenes acá, o hacé clic para elegirlas</div>
   <input type="file" id="be-files2" accept="image/*" multiple style="display:none">
   <div class="be-images" id="be-images2"></div>
+  <div class="be-actions" style="margin:.6rem 0 0">
+    <button type="button" class="small" id="be-ins-carrete2">Insertar carrete con todas</button>
+    <button type="button" class="small" id="be-ins-galeria2">Insertar galería con todas</button>
+  </div>
 </div>
 
 <div class="be-field">

@@ -23,6 +23,7 @@ nav:
   - Referencias:
       - web: ref/web.md
   - Método: metodo/documentar.md
+  - Plantillas: plantillas/index.md
   - Editor: editor.md
 
 extra:
@@ -114,4 +115,5 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  - javascripts/bitacora.js
   - javascripts/editor.js

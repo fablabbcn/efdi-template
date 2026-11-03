@@ -28,7 +28,7 @@ Esta página es mi resumen de la **Guía de Documentación de la EFDI**. No es u
 5. **Reflexión**: qué aprendí, qué mejoraría.
 6. **Archivos**: enlaces a los archivos dentro del repositorio.
 
-El [editor](../editor.md) genera esta estructura: completo los campos que quiera y obtengo el Markdown listo.
+El [editor](../editor.md) genera esta estructura: completo los campos que quiera y obtengo el Markdown listo. Para entradas con carrete de fotos, galería o comparación antes/después, uso las [plantillas](../plantillas/index.md) de cada sección.
 
 ## Archivos y formatos
 

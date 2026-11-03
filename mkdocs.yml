@@ -117,3 +117,4 @@ extra_css:
 extra_javascript:
   - javascripts/bitacora.js
   - javascripts/editor.js
+  - javascripts/constructor.js

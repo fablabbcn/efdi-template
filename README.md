@@ -115,7 +115,7 @@ Puedes visitar la demo del template aquí:
 
 ## ✍️ Editor en la página
 
-La página **Editor** del sitio permite escribir una entrada nueva con la estructura de la guía de documentación,
+La página **Editor** del sitio permite armar una página por elementos (título, texto, imagen, carrete, galería, antes/después, ficha de datos, tabla, línea de tiempo, resultado, nota, video, código, archivos) con vista previa en vivo, o escribir una entrada con la estructura de la guía de documentación,
 cargar fotos (se comprimen en el navegador) y publicar todo en un solo commit a `main`, incluida la línea nueva en
 el menú de `mkdocs.yml`. También permite editar o borrar cualquier archivo de `docs/` y el propio `mkdocs.yml`.
 

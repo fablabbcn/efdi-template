@@ -74,12 +74,7 @@ title: Editor
   <button type="button" data-add="archivos"><span class="bc-ico">⇩</span>Archivos</button>
 </div>
 
-<div class="be-actions" style="margin:.4rem 0 1rem">
-  <button type="button" class="small" id="bc-plantilla-tec">Empezar con la estructura de Tecnología</button>
-  <button type="button" class="small" id="bc-plantilla-dis">Diseño</button>
-  <button type="button" class="small" id="bc-plantilla-inn">Innovación</button>
-  <button type="button" class="small" id="bc-plantilla-pro">Proyecto</button>
-</div>
+<div class="bc-plantillas" id="bc-plantillas"></div>
 
 <div class="bc-work" id="bc-work">
   <div class="bc-bloques" id="bc-bloques">

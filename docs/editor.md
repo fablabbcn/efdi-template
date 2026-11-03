@@ -4,25 +4,37 @@ title: Editor
 
 # Editor de bitácora
 
-<p class="meta">Escribir · subir imágenes · publicar en el repositorio</p>
+<p class="meta">Armar · escribir · subir fotos y archivos · publicar en el repositorio</p>
 
-!!! note "Plantillas"
-    Para una entrada con carrete, galería, comparación y ficha de datos, copiá la plantilla de tu sección desde [Plantillas](plantillas/index.md) en la pestaña **Editar archivo**.
+!!! quote "Atribución · desarrollado con IA"
+    Esta sección del sitio (el editor, el constructor por elementos, las [plantillas](plantillas/index.md) y los componentes para fotos) fue **desarrollada con Claude (Anthropic)** a pedido mío, siguiendo la [guía de documentación](metodo/documentar.md) de la EFDI: reconozco el trabajo generado por máquinas y documento cómo lo usé. La idea, los requisitos, las decisiones de estilo y las correcciones son mías; el código lo generó la IA en conversación y yo lo revisé probándolo en el sitio. Uso declarado con la etiqueta [CCL · Cognitive Contribution Label](https://santifu.github.io/ccl/).
+
+??? note "Pedidos que le hice a la IA, resumidos"
+    - «Pasá todo a una estética minimalista como la guía rápida de captura de datos, al estilo de fisicabit.com: blanco, negro y líneas».
+    - «Mantené toda la configuración original del sitio; solo cambiá la estética».
+    - «Quiero un apartado en la propia página para subir ítems nuevos con el formato que piden mis docentes, pero solo con mi cuenta».
+    - «Dame plantillas lindas para cada sección, con carretes de fotos y antes/después, conservando el estilo».
+    - «Mejorá el editor y hacelo más gráfico, como Word: que me deje generar elementos para la página».
+    - «Quiero poner los archivos en Google Drive o poder subirlos a GitHub».
+
+    No es la transcripción completa: la conversación incluyó pruebas, errores (por ejemplo, un rediseño que rompió el menú lateral y hubo que revertir) y ajustes sobre capturas de pantalla.
 
 <div id="bitacora-editor" class="be" data-owner="martinfp642" data-repo="martin_ferreira" data-branch="main" data-site="https://martinfp642.github.io/martin_ferreira/">
 
 <div class="be-toolbar">
-  <button type="button" data-panel="armar" aria-pressed="true">Armar página</button>
-  <button type="button" data-panel="nueva">Formulario</button>
-  <button type="button" data-panel="editar">Editar archivo</button>
-  <button type="button" data-panel="cuenta">Mi cuenta</button>
-  <button type="button" data-panel="ayuda">Ayuda</button>
-  <span class="be-status" id="be-status">Sin conexión</span>
+  <button type="button" data-panel="armar" aria-pressed="true"><span class="bc-ico">▦</span>Armar página</button>
+  <button type="button" data-panel="nueva"><span class="bc-ico">☰</span>Formulario</button>
+  <button type="button" data-panel="editar"><span class="bc-ico">&lt;/&gt;</span>Editar archivo</button>
+  <button type="button" data-panel="cuenta"><span class="bc-ico">●</span>Mi cuenta</button>
+  <button type="button" data-panel="ayuda"><span class="bc-ico">?</span>Ayuda</button>
+  <button type="button" class="be-status" id="be-status" title="Conectar o desconectar la cuenta">Sin conexión</button>
 </div>
 
 <!-- ============================ ARMAR PÁGINA ============================ -->
 <section class="be-panel active" data-panel="armar">
 <div id="be-constructor">
+
+<div class="bc-paso"><span class="bc-num">1</span>La página <small>Título, sección del menú y fecha.</small></div>
 
 <div class="be-row">
   <div class="be-field">
@@ -41,8 +53,10 @@ title: Editor
   </div>
 </div>
 
+<div class="bc-paso"><span class="bc-num">2</span>Los elementos <small>Agregá, completá y ordená. Hacé clic en la barra negra de un elemento para plegarlo o desplegarlo; arrastrala para moverlo.</small></div>
+
 <div class="bc-paleta" id="bc-paleta">
-  <span class="bc-paleta-titulo">Agregar elemento</span>
+  <span class="bc-paleta-titulo">Agregar al final</span>
   <button type="button" data-add="titulo"><span class="bc-ico">H</span>Título</button>
   <button type="button" data-add="texto"><span class="bc-ico">¶</span>Texto</button>
   <button type="button" data-add="imagen"><span class="bc-ico">▣</span>Imagen</button>
@@ -67,24 +81,28 @@ title: Editor
   <button type="button" class="small" id="bc-plantilla-pro">Proyecto</button>
 </div>
 
-<div class="bc-work">
+<div class="bc-work" id="bc-work">
   <div class="bc-bloques" id="bc-bloques">
     <p class="be-kv bc-vacio">Todavía no hay elementos. Elegí uno arriba, o empezá con una estructura.</p>
   </div>
   <div class="bc-previa">
-    <div class="bc-previa-titulo">Vista previa</div>
+    <div class="bc-previa-titulo">Vista previa <button type="button" class="small" id="bc-previa-toggle">Ocultar</button></div>
     <div class="be-preview md-typeset" id="bc-preview"></div>
   </div>
 </div>
 
-<div class="be-actions">
-  <button type="button" class="primary" id="bc-publicar">Publicar en el sitio</button>
-  <button type="button" id="bc-abrir-texto">Abrir en el editor de texto</button>
-  <button type="button" id="bc-copiar">Copiar Markdown</button>
-  <button type="button" id="bc-descargar">Descargar .md</button>
-  <button type="button" id="bc-limpiar">Vaciar</button>
-</div>
+<div class="bc-paso"><span class="bc-num">3</span>Publicar <small>Un solo commit con la página, las fotos, los archivos y el menú. Sin cuenta conectada, copiá o descargá el Markdown.</small></div>
 
+<div class="bc-acciones">
+  <div class="be-actions" style="margin:0">
+    <button type="button" class="primary" id="bc-publicar">Publicar en el sitio</button>
+    <button type="button" id="bc-abrir-texto">Abrir en el editor de texto</button>
+    <button type="button" id="bc-copiar">Copiar Markdown</button>
+    <button type="button" id="bc-descargar">Descargar .md</button>
+    <button type="button" id="bc-limpiar">Vaciar</button>
+    <span class="bc-contador" id="bc-contador"></span>
+  </div>
+</div>
 <div class="be-log" id="bc-log">Los elementos y las fotos se guardan en este navegador mientras trabajás.</div>
 
 </div>

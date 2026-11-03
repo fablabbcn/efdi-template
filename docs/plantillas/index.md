@@ -8,6 +8,9 @@ title: Plantillas
 
 Cada plantilla es un archivo Markdown con la estructura de la guía de documentación y los componentes para fotos del sitio. Para usarla: abrir el [editor](../editor.md), pestaña **Editar archivo**, crear la página en la carpeta de la sección y pegar el código. O copiarlo a mano en Visual Studio Code. Las fotos de ejemplo son las de la portada; se reemplazan por las propias.
 
+!!! quote "Atribución"
+    Las plantillas y los componentes para fotos fueron desarrollados con Claude (Anthropic) a pedido mío; el detalle está en el [editor](../editor.md).
+
 !!! note "Pie de foto"
     El texto entre corchetes de cada imagen (`![así](…)`) es el pie de foto. Se muestra debajo en el carrete y en la galería, y como etiqueta en la comparación.
 

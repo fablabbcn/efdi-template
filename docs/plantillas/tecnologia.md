@@ -68,6 +68,10 @@ _Fotos y capturas tomadas mientras trabajaba. El texto alternativo de cada image
 
 _Qué aprendí. Qué haría distinto la próxima vez._
 
+## Pieza 3D
+
+<div class="stl" data-src="../files/ejemplo/polea.stl" data-nombre="polea.stl" data-pie="La pieza, para girarla y descargarla"></div>
+
 ## Archivos
 
 - [pieza.f3d](../files/pieza.f3d) · formato editable original

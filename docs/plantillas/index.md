@@ -25,6 +25,7 @@ Cada plantilla es un archivo Markdown con la estructura de la guía de documenta
 | Datos | Ficha con materiales, máquina, tiempo, archivos | `<div class="datos" markdown>` + lista con `**Clave**: valor` |
 | Línea de tiempo | Semana a semana | `<div class="linea" markdown>` + lista con `**Semana 1** · …` |
 | Video | YouTube o Vimeo, sin subir el archivo | `<div class="video"><iframe src="…"></iframe></div>` |
+| Pieza 3D | Visor interactivo de un archivo STL subido al sitio: girar, acercar, alambre, descargar | `<div class="stl" data-src="../files/…/pieza.stl" data-nombre="pieza.stl" data-pie="…"></div>` |
 | Resultado | Etiqueta de éxito o fallo | `<span class="ok">éxito</span>` · `<span class="fail">falló</span>` |
 
 Al tocar cualquier foto de estos componentes se abre en grande.
@@ -58,6 +59,12 @@ Al tocar cualquier foto de estos componentes se abre en grande.
 ![Después](../images/welcome/fisicabit-piezas3d.jpg)
 
 </div>
+
+### Así se ve una pieza 3D
+
+Se carga cuando aparece en pantalla. Arrastrar gira la pieza; la rueda o el pellizco acercan. Las medidas se toman del archivo (en mm).
+
+<div class="stl" data-src="../files/ejemplo/polea.stl" data-nombre="polea.stl" data-pie="Polea de ejemplo · 50 mm de diámetro, garganta de 5 mm, eje de 8 mm"></div>
 
 ## Las plantillas
 

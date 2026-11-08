@@ -1,12 +1,12 @@
 
 # Replace the text below to customize your site
-site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona & Fab Lab Esan
-site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
-repo_name: "Name : Github Repo"
-site_url: https://fablabbcn.github.io/efdi-template/
-repo_url: https://github.com/fablabbcn/efdi-template
+site_name: Martin Ferreira - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_description: Especialización en Fabricación Digital e Innovación
+site_author: Martin Ferreira
+copyright: Copyleft 2024 "Martin Ferreira" - GNU Free Documentation License
+repo_name: "martinfp642/martin_ferreira"
+site_url: https://martinfp642.github.io/martin_ferreira/
+repo_url: https://github.com/martinfp642/martin_ferreira
 
 nav:
   - Home: index.md
@@ -14,6 +14,7 @@ nav:
   - About sitio web: about sitio web/sitio web-mt01.md
   - Tecnología y Fabricación:
       - Bloque 1 MT02-MT03: tecnicos/mt02-03.md
+      - "MT03 · Lámpara Física": tecnicos/mt03-lampara-fisica.md
   - Diseño:
       - Bloque 1 MD01: diseno/md01.md
   - Innovación:
@@ -22,6 +23,9 @@ nav:
       - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
       - web: ref/web.md
+  - Método: metodo/documentar.md
+  - Plantillas: plantillas/index.md
+  - Editor: editor.md
 
 extra:
   social:
@@ -45,8 +49,8 @@ theme:
     accent: purple
   font:
     # See available fonts at https://fonts.google.com/
-    text: Be Vietnam
-    code: Cutive Mono
+    text: Montserrat
+    code: Roboto Mono
   icon:
     logo: material/memory
   favicon: images/favicon.svg
@@ -110,4 +114,8 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
+
+extra_javascript:
+  - javascripts/bitacora.js
+  - javascripts/editor.js
+  - javascripts/constructor.js

@@ -1,18 +1,18 @@
 ---
-title: MT03 · Lámpara Física: una cámara oscura para explorar la luz
+title: MT03 · FP01 · Lámpara Física: una cámara oscura para explorar la luz
 ---
 
-# Lámpara Física: diseñar, cortar y revelar la luz
+# MT03 · FP01 · Lámpara Física: diseñar, cortar y revelar la luz
 
-<p class="meta">MT03 · Tecnología y Fabricación · Módulo de corte láser · Registro de entrega: 2026-11-08</p>
+<p class="meta">MT03 · FP01 · Tecnología y Fabricación · Módulo de corte láser · Registro de entrega: 2026-11-08</p>
 
 <div class="datos" markdown>
 
 - **Máquina / técnica**: cortadora láser CO₂; corte vectorial, grabado vectorial y rasterizado.
 - **Materiales**: MDF de 3 mm de espesor, definido como parámetro en Fusion 360.
 - **Software**: Fusion 360, Inkscape y RDWorks V8.
-- **Tiempo**: Se usaron muchas horas de trabajo en diseño.
-- **Piezas usadas**: 2 planchas de 45cm x 60cm
+- **Tiempo**: pendiente de cuantificar; se extendió por la corrección en Fusion 360 y el segundo corte.
+- **Costo aproximado**: pendiente de calcular.
 - **Archivos**: [ver abajo](#archivos).
 
 </div>
@@ -23,9 +23,9 @@ Quise aprovechar el módulo de corte láser para desarrollar un objeto que no fu
 
 ## La idea: una lámpara que también permita observar
 
-La primera decisión fue trabajar con una caja de caras independientes, en lugar de una estructura fija. Quería que pudiera armarse y desarmarse, que cada cara tuviera una función y que el conjunto pudiera seguir evolucionando con nuevas piezas o propuestas experimentales.
+La primera decisión fue trabajar con una cámara de caras independientes, en lugar de una estructura fija. Quería que pudiera armarse y desarmarse, que cada cara tuviera una función y que el conjunto pudiera seguir evolucionando con nuevas piezas o propuestas experimentales.
 
-El concepto de cámara oscura orientó la organización del diseño: una abertura pequeña permite controlar la entrada de luz, mientras que el interior de la caja ofrece un espacio para explorar la formación de imágenes. Para que esa experiencia funcione, será importante comprobar durante las pruebas el tamaño del orificio, el control de la luz ambiente y la superficie sobre la que se observa la proyección.
+El concepto de cámara oscura orientó la organización del diseño: una abertura pequeña permite controlar la entrada de luz, mientras que el interior de la cámara ofrece un espacio para explorar la formación de imágenes. Para que esa experiencia funcione, será importante comprobar durante las pruebas el tamaño del orificio, el control de la luz ambiente y la superficie sobre la que se observa la proyección.
 
 También me interesó que la pieza tuviera una lectura simbólica. Diseñé una **tapa superior desmontable con un orificio**, de manera que, al retirarla, se pudiera revelar aquello que permanece debajo, en relación con la **definición de luz grabada** en el conjunto. Ese gesto de destapar y revelar es una alegoría deliberada: la luz, desde el punto de vista físico, no solo ilumina un objeto, sino que hace posible observar y comprender lo que antes no veíamos.
 
@@ -52,7 +52,13 @@ Durante el diseño decidí incorporar dos elementos gráficos propios. Por un la
 
 ### 1. Modelado en Fusion 360
 
-Comencé por el diseño tridimensional de la estructura en **Fusion 360**. Mi intención fue crear una cámara oscura a partir del concepto de una lámpara modular: una caja cúbica con lados encastrables que pudieran montarse y desmontarse sin perder la relación entre las piezas. La tapa superior con un orificio forma parte de esa propuesta y, al retirarla, permite revelar lo que queda por debajo, junto a la definición de luz grabada. Me interesaba que la forma y el modo de interactuar con el objeto también expresaran una idea sobre la luz desde la física.
+**Modelo 3D interactivo de la Lámpara Física:**
+
+<div class="stl" data-src="../files/mt03-corte-laser/lampara-fisica.stl" data-nombre="lampara-fisica.stl" data-pie="Modelo de la cámara oscura diseñado en Fusion 360; se puede girar y explorar"></div>
+
+[Descargar modelo editable de Fusion 360 (.f3d)](../files/mt03-corte-laser/lampara-fisica.f3d) · [Descargar modelo tridimensional (.stl)](../files/mt03-corte-laser/lampara-fisica.stl)
+
+Comencé por el diseño tridimensional de la estructura en **Fusion 360**. Mi intención fue crear una cámara oscura a partir del concepto de una lámpara modular: una estructura cúbica con lados encastrables que pudieran montarse y desmontarse sin perder la relación entre las piezas. La tapa superior con un orificio forma parte de esa propuesta y, al retirarla, permite revelar lo que queda por debajo, junto a la definición de luz grabada. Me interesaba que la forma y el modo de interactuar con el objeto también expresaran una idea sobre la luz desde la física.
 
 Para fabricar la estructura elegí **MDF de 3 mm de espesor**. En Fusion 360 trabajé el diseño de forma **paramétrica**, tomando ese espesor como referencia para definir las dimensiones y los encastres. Esto fue especialmente importante para que las caras coincidieran entre sí y para poder modificar el diseño con mayor facilidad si en una nueva versión cambio el material o necesito ajustar las uniones.
 
@@ -63,13 +69,7 @@ Para fabricar la estructura elegí **MDF de 3 mm de espesor**. En Fusion 360 tra
 
 </div>
 
-Diseñar las piezas por separado me obligó a revisar las medidas del cubo, la posición de las aberturas y la correspondencia de cada encastre. No buscaba producir una caja cerrada y definitiva, sino una estructura que pudiera intervenirse y reutilizarse en otras experiencias educativas. Por eso conservé el archivo editable y también exporté el modelo tridimensional para poder observar el conjunto armado.
-
-**Modelo 3D interactivo de la Lámpara Física:**
-
-<div class="stl" data-src="../files/mt03-corte-laser/lampara-fisica.stl" data-nombre="lampara-fisica.stl" data-pie="Modelo de la cámara oscura diseñado en Fusion 360; se puede girar y explorar"></div>
-
-[Descargar modelo editable de Fusion 360 (.f3d)](../files/mt03-corte-laser/lampara-fisica.f3d) · [Descargar modelo tridimensional (.stl)](../files/mt03-corte-laser/lampara-fisica.stl)
+Diseñar las piezas por separado me obligó a revisar las medidas del cubo, la posición de las aberturas y la correspondencia de cada encastre. No buscaba producir una cámara cerrada y definitiva, sino una estructura que pudiera intervenirse y reutilizarse en otras experiencias educativas. Por eso conservé el archivo editable y también exporté el modelo tridimensional para poder observar el conjunto armado.
 
 ### 2. Preparación vectorial en Inkscape
 
@@ -114,7 +114,19 @@ Estos valores documentan **la configuración utilizada en esta práctica**, no u
 
 ### 4. Corte de las piezas
 
-Con el archivo organizado y las capas configuradas, pasé a la fabricación. El corte de los contornos permitió obtener las caras y los encastres que había previsto en el modelo digital. Esta etapa es especialmente relevante para evaluar la distancia entre lo diseñado y lo que realmente produce la máquina: un encastre necesita cierta precisión para que el objeto pueda montarse sin forzar las piezas ni dejar una unión excesivamente floja.
+Con el archivo organizado y las capas configuradas, pasé a la fabricación sobre **MDF de 3 mm**. Esta etapa terminó siendo especialmente interesante porque **tuve que realizar dos cortes de la cámara**. El primero sirvió para comprobar algo que en pantalla no había advertido: aunque el modelo estaba planteado como un conjunto de caras encastrables, una de las piezas presentaba un problema de diseño.
+
+#### Primera fabricación: el error que apareció al armar
+
+Durante el primer corte fui verificando las piezas obtenidas y, al intentar ensamblarlas, apareció el problema: **la parte inferior no encastraba correctamente con las demás caras**. Al trasladar el diseño al objeto físico, quedó claro que la cámara no podía montarse de la forma prevista. El error provenía del trabajo de diseño en Fusion 360, donde había intervenido varias veces sobre una misma pieza y se había generado una inconsistencia en los encastres.
+
+Este fue un momento importante del proceso porque el problema no se resolvía solamente modificando los parámetros de la cortadora. Había que **volver al modelo original, identificar qué parte de la geometría no coincidía y corregirla**.
+
+#### Segunda fabricación: corrección y validación
+
+En la misma jornada presencial regresé a **Fusion 360**, seguí el origen del error y realicé el ajuste correspondiente. Luego preparé nuevamente el archivo para efectuar un **segundo corte** y comprobar el armado. Este ciclo de revisión, corrección y nueva fabricación implicó dedicarle más tiempo del previsto, pero permitió completar el prototipo.
+
+El resultado fue una **cámara físicamente fabricada, completamente armable y con sus caras encastrando correctamente**. Me pareció especialmente valioso haber podido detectar el error en una pieza real, rastrearlo en el archivo paramétrico y solucionarlo durante la misma jornada. La segunda iteración dejó de ser simplemente una repetición del corte: fue una comprobación de que la modificación del diseño efectivamente resolvía el problema.
 
 **Registro del corte en proceso:**
 
@@ -142,15 +154,17 @@ El logotipo de Física Simple completa esa identidad y conecta el trabajo del m�
 
 ## Resultados
 
-<span class="ok">Avances</span> Logré desarrollar el modelo editable en Fusion 360, preparar las caras y los elementos gráficos en Inkscape, diferenciar las operaciones por colores y documentar en RDWorks los parámetros de corte, grabado vectorial y rasterizado. Los registros fotográficos y los videos permiten mostrar esas etapas de fabricación.
+<span class="ok">Avances</span> Logré desarrollar el modelo paramétrico en Fusion 360, preparar las piezas en Inkscape y configurar las operaciones en RDWorks. Tras el **primer corte**, identifiqué el problema de encastre de la pieza inferior, lo corregí en Fusion 360 y realicé un **segundo corte**. El **prototipo físico quedó armado y funcional como estructura encastrable** dentro de la misma jornada presencial. Los registros fotográficos y los videos documentan distintas etapas de fabricación.
 
-<span class="fail">Aspectos para seguir evaluando</span> No alcanza con que la caja pueda cortarse: todavía es importante **verificar sistemáticamente** la calidad de los encastres, las tolerancias reales del material, la legibilidad del texto grabado y, especialmente, el funcionamiento óptico de la cámara oscura. No considero demostrados esos resultados experimentales únicamente por haber completado el diseño y el corte.
+<span class="fail">Error e iteración</span> El primer intento no permitió montar correctamente la cámara: la pieza inferior no coincidía con las otras caras. El error se relacionaba con las modificaciones realizadas sobre esa pieza durante el modelado. Tuve que regresar a Fusion 360, corregir el diseño y repetir el corte, lo que extendió el tiempo de trabajo. La corrección fue efectiva y quedó validada mediante el armado físico.
+
+**Aspectos para seguir evaluando:** Aunque se resolvió el ensamble de la cámara, quiero registrar con mayor precisión las tolerancias de los encastres, evaluar la legibilidad y durabilidad del grabado y, sobre todo, **comprobar experimentalmente el funcionamiento óptico de la cámara oscura**. Que el prototipo esté correctamente armado no demuestra por sí solo que la proyección de imágenes ya esté optimizada.
 
 ## Reflexión
 
 Lo que más me interesó de este módulo fue pasar de la idea de una lámpara a un objeto que puede generar preguntas sobre la luz. El diseño de las caras encastrables me obligó a pensar no solo en la forma, sino también en el armado, la fabricación y las posibilidades de intervenir la estructura después.
 
-La combinación de Fusion 360, Inkscape y RDWorks me permitió ver con mayor claridad que **diseñar para fabricar** implica tomar decisiones en diferentes etapas, desde parametrizar el espesor del MDF hasta configurar la máquina: modelar correctamente, preparar los vectores, asignar operaciones y comprobar los resultados sobre el material. Cada archivo cumple una función y los detalles que se dejan sin resolver en una etapa terminan apareciendo en la siguiente.
+La combinación de Fusion 360, Inkscape y RDWorks me permitió ver con mayor claridad que **diseñar para fabricar** implica tomar decisiones en diferentes etapas, desde parametrizar el espesor del MDF hasta configurar la máquina. Lo que más me dejó la experiencia fue **tener que volver del objeto físico al diseño digital**: cuando las caras no encastraron en el primer intento, pude revisar la pieza problemática, corregirla en Fusion 360 y hacer un segundo corte en la misma jornada. Se necesitó más tiempo, pero terminé con una cámara que sí podía armarse. Comprobé que una pieza puede verse correcta en el modelo y revelar errores recién al intentar montarla, y que por eso es tan importante fabricar, probar e iterar.
 
 También valoro la dimensión conceptual del proyecto. La cámara oscura permite abordar la propagación de la luz a través de una experiencia tangible. Al mismo tiempo, el orificio, la tapa desmontable y la definición grabada proponen un juego entre **dejar entrar la luz, observar y revelar**. Me gustó que esa idea pudiera expresarse tanto en la función del objeto como en su diseño.
 
@@ -168,3 +182,11 @@ Este trabajo también se vincula con **FisicaBit** y con mi objetivo de crear ma
 - [RDWorks V8 (.zip)](../files/mt03-corte-laser/rdworksv8-20230809t215009z-001.zip) · archivo del software utilizado.
 - [Video del corte](https://drive.google.com/file/d/1J4oqGkzGYaLhZdkMADa3Jqx-nP6Laa0F/view?usp=drive_link) · registro del proceso.
 - [Video del rasterizado](https://drive.google.com/file/d/1sLor424uDrsMr0x5cEkxz7lnSP70VbA_/view?usp=drive_link) · registro del proceso.
+
+## Diseño terminado
+
+<figure class="hero-shot" markdown>
+
+![Cámara oscura terminada, junto a un gato como referencia visual de escala](../images/mt03-corte-laser/diseno-terminado-con-gato-comparacin.jpg)
+
+</figure>

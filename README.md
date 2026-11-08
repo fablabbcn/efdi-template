@@ -1,6 +1,6 @@
 # 🌐 EFDI Website Template
 
-Este es un template para el repositorio personal de los estudiantes durante la **Especialización en Fabricación Digital e Innovación (EFDI - UTEC & FAB LAB BARCELONA)**.
+Este es un template para el repositorio personal de los estudiantes durante la **Especialización en Fabricación Digital e Innovación (EFDI - UTEC & FAB LAB BARCELONA) con mis datos nuevos**.
 
 ---
 
@@ -110,3 +110,15 @@ El contenido dentro de `site/` es el que se publica en **GitHub Pages**.
 
 Puedes visitar la demo del template aquí:  
 👉 [https://mathira.github.io/efdi-template/](https://mathira.github.io/efdi-template/)
+
+---
+
+## ✍️ Editor en la página
+
+La página **Editor** del sitio permite armar una página por elementos (título, texto, imagen, carrete, galería, antes/después, ficha de datos, tabla, línea de tiempo, resultado, nota, video, código, archivos) con vista previa en vivo, o escribir una entrada con la estructura de la guía de documentación,
+cargar fotos (se comprimen en el navegador) y publicar todo en un solo commit a `main`, incluida la línea nueva en
+el menú de `mkdocs.yml`. También permite editar o borrar cualquier archivo de `docs/` y el propio `mkdocs.yml`.
+
+Solo funciona con un **token personal fine-grained** de GitHub con permiso *Contents: Read and write* sobre este
+repositorio; el token queda guardado únicamente en el navegador. Sin token, el editor igual genera el Markdown para
+copiar o descargar. Las instrucciones completas están en la pestaña **Ayuda** del editor.
